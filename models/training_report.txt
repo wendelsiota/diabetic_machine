@@ -1,0 +1,30 @@
+RELATÓRIO DE TREINAMENTO DE MODELOS - DIABETES
+==================================================
+
+Data: 2025-09-22 19:58:10
+Dataset: 80000 amostras de treino, 20000 amostras de teste
+Features: 45
+Validação cruzada: 5 folds estratificados
+
+MELHOR MODELO:
+--------------------
+Nome: Gradient Boosting (Baseline)
+F1-Score: 1.000
+ROC AUC: 1.000
+Accuracy: 1.000
+Precision: 1.000
+Recall: 1.000
+Parâmetros: Parâmetros padrão
+
+TOP 5 MODELOS:
+--------------------
+1. Gradient Boosting (Baseline): F1=1.000, AUC=1.000
+2. Gradient Boosting (Otimizado): F1=1.000, AUC=1.000
+3. Random Forest (Otimizado): F1=1.000, AUC=1.000
+4. Random Forest (Baseline): F1=1.000, AUC=1.000
+5. AdaBoost (Baseline): F1=1.000, AUC=1.000
+
+MODELOS TREINADOS: 10
+MODELOS OTIMIZADOS: 3
+TEMPO TOTAL DE TREINAMENTO: 208.44s
+TEMPO TOTAL DE OTIMIZAÇÃO: 1550.98s
